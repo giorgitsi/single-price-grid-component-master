@@ -1,0 +1,146 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+padding: 20px;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: hsl(204, 43%, 93%);
+}
+
+/* - Cyan: c
+- Bright Yellow: hsl(71, 73%, 54%) */
+
+/* - Light Gray: hsl(204, 43%, 93%)
+- Grayish Blue: hsl(218, 22%, 67%) */
+
+
+.box-1{
+    background-color:hsl(0, 0%, 100%) ;
+    padding: 100px;
+    
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+    
+
+}
+
+.h2{
+    color:hsl(179, 62%, 43%) ;
+    margin-bottom:30px ;
+    font-family: 'Karla', sans-serif;
+}
+
+.p-1{
+    color: hsl(71, 73%, 54%);
+    font-size: 20px;
+    font-family: 'Karla', sans-serif;
+
+}
+
+.p-2{
+    margin-top: 20px;
+    opacity: 0.5;
+    font-family: 'Karla', sans-serif;
+
+}
+
+.box-container{
+    display: flex;
+}
+
+.box{
+    color: white;
+}
+
+
+
+.box-2{
+    background-color:hsl(179, 62%, 43%);
+    padding: 70px;
+    width: 100% ;
+    border-bottom-left-radius: 10px;
+    
+    
+}
+
+.box-3{
+    background-color:rgb(83, 213, 213);
+    padding: 70px;
+    width: 100% ;
+    border-bottom-right-radius: 10px;
+    
+}
+
+.p-box{
+    display: flex;
+    
+        font-family: 'Karla', sans-serif;
+        align-items: center;
+    
+    
+}
+
+.btn{
+    width: 100%;
+    padding: 15px;
+    margin-top: 30px;
+    border-radius: 7px;
+    border: 0px;
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    font-size: 16px;
+    box-shadow: 0px 0px 10px 1px 
+    rgba(0, 0, 0, 0.262);
+    font-family: 'Karla', sans-serif;
+    
+    
+}
+
+.p-5{
+    font-family: 'Karla', sans-serif;
+    opacity: 0.6;
+    margin-top: 12px;
+
+}
+
+.p-6{
+    font-family: 'Karla', sans-serif;
+    
+    opacity: 0.5;
+
+}
+
+
+.h2-1{
+    font-family: 'Karla', sans-serif;
+    margin-bottom: 15px;
+}
+
+.h2-3{
+    
+        
+        font-weight: 500;
+        margin-bottom:25px;
+        font-family: 'Karla', sans-serif;
+    
+}
+
+
+.p-3{
+    font-size: 30px;
+}
+
+.p-4{
+    opacity: 0.6;
+    margin-left:10px ;
+}
